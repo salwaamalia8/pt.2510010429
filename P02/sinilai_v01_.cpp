@@ -12,6 +12,8 @@ int main() {
     //         dihitung, dan bisa diawali 0, jadi pikirkan tipe yang tepat.
     string nama = "Siti Aminah";
     string npm = "2024010101";
+    string program_studi = "Teknik Informatika";
+    int semester = 3;
     double kehadiran = 100;
     double mingguan = 85.5;
     double uts = 78;
@@ -20,12 +22,13 @@ int main() {
     //         Nilai bisa berisi pecahan seperti 85.5.
 
     cout << "=== SiNilai v0.1 ===\n";
-    cout << "Nama     : " << nama << endl;
-    cout << "NPM      : " << npm << endl;
-    cout << "Kehadiran: " << kehadiran << endl;
-    cout << "Mingguan : " << mingguan << endl;
-    cout << "UTS      : " << uts << endl;
-    cout << "UAS      : " << uas << endl;
+    cout << "Nama          : " << nama << endl;
+    cout << "NPM           : " << npm << endl;
+    cout << "program studi : " << program_studi << endl;
+    cout << "Kehadiran     : " << kehadiran << endl;
+    cout << "Mingguan      : " << mingguan << endl;
+    cout << "UTS           : " << uts << endl;
+    cout << "UAS           : " << uas << endl;
     
     // TODO 3: baca nama. Ingat, nama bisa mengandung spasi.
 
@@ -34,12 +37,14 @@ int main() {
     // TODO 5: baca keempat komponen nilai, satu per satu, dengan prompt seperti di atas.
 
     cout << "\n--- Kartu Data Mahasiswa ---\n";
-    cout << "Nama     : " << nama << endl;
-    cout << "NPM      : " << npm << endl;
-    cout << "Kehadiran: " << kehadiran << endl;
-    cout << "Mingguan : " << mingguan << endl;
-    cout << "UTS      : " << uts << endl;
-    cout << "UAS      : " << uas << endl;
+    cout << "Nama           : " << nama << endl;
+    cout << "NPM            : " << npm << endl;
+    cout << "program studi  : " << program_studi << endl;
+    cout << "Kehadiran      : " << kehadiran << endl;
+    cout << "Kehadiran      : " << kehadiran << endl;
+    cout << "Mingguan       : " << mingguan << endl;
+    cout << "UTS            : " << uts << endl;
+    cout << "UAS            : " << uas << endl;
     // TODO 6: tampilkan semua data yang tadi dibaca, satu baris per data, rata seperti prompt.
 
     return 0;
