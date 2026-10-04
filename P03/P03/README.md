@@ -34,3 +34,4 @@ Folder `p03` di repository `pt-NPM` berisi `sinilai_v02.cpp` dan  `README.md`. L
 ## Deklarasi AI
 
 Tuliskan AI yang digunakan, prompt, dan umpan balik AI
+## memakai AI dan bantuan teman untuk yg txt dan meminta bantu untuk simpan di git
