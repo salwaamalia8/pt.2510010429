@@ -37,18 +37,22 @@ const double BOBOT_UAS =0.20;
     cin >> uas;
 
     double nilai_akhir = (kehadiran * BOBOT_KEHADIRAN) + (mingguan * BOBOT_MINGGUAN) + (uts * BOBOT_UTS) + (uas * BOBOT_UAS);
-
+    
     // TODO 2: hitung nilai akhir dengan formula di atas. Simpan ke variabel double nilai_akhir.
 
     // TODO 3: hitung juga rata-rata sederhana keempat komponen (tanpa bobot), simpan ke rerata_polos.
     //         Hati-hati: pembaginya jangan bilangan bulat.
     double rerata_polos = (kehadiran + mingguan + uts + uas) / 4.0;
+    double selisih = nilai_akhir - rerata_polos;
+ 
 
     cout << "\n--- Kartu Nilai Mahasiswa ---\n";
     cout << "Nama         : " << nama << "\n";
     cout << "NPM          : " << npm << "\n";
     cout << "Nilai akhir  : " << nilai_akhir << "\n";
     cout << "Rerata polos : " << rerata_polos << "\n";
+    cout << "Selisih      : " << selisih << "\n";
+   
     
 
     // TODO 4: tampilkan nilai_akhir dan rerata_polos, sejajar dengan baris di atas.
